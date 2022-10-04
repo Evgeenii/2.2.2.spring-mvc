@@ -3,9 +3,9 @@ package web.model;
 import java.util.Objects;
 
 public class Car {
-    String model;
-    int series;
-    int year;
+    private String model;
+    private int series;
+    private int year;
 
     public Car(String model, int series, int year) {
         this.model = model;
